@@ -3,7 +3,6 @@ agnes_config.json
 chat_memory.json
 contacts.json
 promises.json
-rules.json
 theme.json
 
 # 运行时文件
