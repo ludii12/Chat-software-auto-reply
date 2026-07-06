@@ -1,4 +1,4 @@
-# ===== 敏感数据（绝对不能上传）=====
+# 敏感数据（不要上传）
 agnes_config.json
 chat_memory.json
 contacts.json
@@ -6,45 +6,33 @@ promises.json
 rules.json
 theme.json
 
-# ===== 运行时生成的文件 =====
+# 运行时文件
 *.log
-wechat_auto_reply.log
 debug/
-debug/*.png
-debug/*.txt
-
-# ===== Python 缓存 =====
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
-dist/
+*.pyc
+
+# 打包产物
 build/
+dist/
 *.spec.bak
 
-# ===== 虚拟环境 =====
+# 虚拟环境
 venv/
-env/
-ENV/
 .venv/
-.env
+env/
 
-# ===== IDE / 编辑器 =====
-.idea/
+# IDE
 .vscode/
+.idea/
 *.swp
 *.swo
-*~
+
+# 系统
 .DS_Store
 Thumbs.db
 
-# ===== 备份文件 =====
-*.bak
-*.bak.*
-build_log*.txt
-
-# ===== 打包产物（朋友自己构建会生成）=====
-*.exe
-*.exe.manifest
+# Python
+*.egg-info/
+.eggs/
+*.egg

@@ -2,7 +2,7 @@
 from PyInstaller.utils.hooks import collect_submodules
 from PyInstaller.utils.hooks import collect_all
 
-datas = [('assets/app_logo.png', 'assets')]
+datas = [('assets/app_logo.png', 'assets'), ('skills', 'skills'), ('agnes_config.json', '.'), ('rules.json', '.')]
 binaries = []
 hiddenimports = ['pyexpat', 'select', 'numpy', 'onnxruntime', 'rapidocr_onnxruntime', 'pkg_resources.py2_warn']
 hiddenimports += collect_submodules('pkg_resources')
